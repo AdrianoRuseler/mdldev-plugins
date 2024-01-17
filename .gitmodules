@@ -2,3 +2,7 @@
 	path = moodle/admin/tool/pluginskel
 	url = https://github.com/mudrd8mz/moodle-tool_pluginskel.git
 	branch = main
+[submodule "moodle/local/codechecker"]
+	path = moodle/local/codechecker
+	url = https://github.com/moodlehq/moodle-local_codechecker.git
+	branch = main
