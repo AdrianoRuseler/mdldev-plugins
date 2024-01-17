@@ -1,0 +1,4 @@
+[submodule "moodle/admin/tool/pluginskel"]
+	path = moodle/admin/tool/pluginskel
+	url = https://github.com/mudrd8mz/moodle-tool_pluginskel.git
+	branch = main
