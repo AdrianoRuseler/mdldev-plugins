@@ -6,3 +6,7 @@
 	path = moodle/local/codechecker
 	url = https://github.com/moodlehq/moodle-local_codechecker.git
 	branch = main
+[submodule "moodle/local/moodlecheck"]
+	path = moodle/local/moodlecheck
+	url = https://github.com/moodlehq/moodle-local_moodlecheck.git
+	branch = main
