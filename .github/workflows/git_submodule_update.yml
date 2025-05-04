@@ -22,6 +22,12 @@ jobs:
           echo "Pulling latest changes..."
           git pull --recurse-submodules || { echo "Failed to pull updates"; exit 1; }
         shell: bash
+
+      - name: Pull Latest Changes for All Submodules
+        run: |
+          echo "Updating all submodules recursively..."
+          git submodule foreach --recursive git pull || { echo "Failed to update some submodules"; exit 1; }
+        shell: bash
         
       - name: Update Git Submodules
         run: |
