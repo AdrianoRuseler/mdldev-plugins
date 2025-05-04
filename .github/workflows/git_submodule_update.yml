@@ -35,8 +35,6 @@ jobs:
           git submodule sync --recursive || { echo "Submodule sync failed"; exit 1; }
           echo "Starting update --init --recursive ..."
           git submodule update --init --recursive || { echo "Submodule initialization failed"; exit 1; }
-          echo "Starting submodule update --remote --merge ..."
-          git submodule update --remote --merge || { echo "Submodule update failed"; exit 1; }
         shell: bash
         
       - name: Download Moodle version file
