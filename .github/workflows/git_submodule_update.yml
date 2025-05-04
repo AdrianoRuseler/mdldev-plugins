@@ -17,6 +17,12 @@ jobs:
           submodules: true
         continue-on-error: false  # Fails if the checkout step has an issue
 
+      - name: Pull Latest Changes Including Submodules
+        run: |
+          echo "Pulling latest changes..."
+          git pull --recurse-submodules || { echo "Failed to pull updates"; exit 1; }
+        shell: bash
+        
       - name: Update Git Submodules
         run: |
           echo "Starting submodule sync --recursive..."
