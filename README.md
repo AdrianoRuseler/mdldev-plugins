@@ -29,3 +29,8 @@ git submodule add -b main https://github.com/moodlehq/moodle-local_moodlecheck.g
 ```bash
 git submodule add -b master https://github.com/michael-milette/moodle-local_mailtest.git local/mailtest
 ```
+
+- https://github.com/grabs/moodle-local_adminer
+```bash
+git submodule add -b main https://github.com/grabs/moodle-local_adminer.git local/adminer
+```
