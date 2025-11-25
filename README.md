@@ -1,6 +1,8 @@
 # mdldev-plugins
 Moodle plugins for dev use
 
+[![Update Submodules](https://github.com/AdrianoRuseler/mdldev-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/mdldev-plugins/actions/workflows/update-submodules.yml)
+
 ## Plugins List
 
 ```bash
